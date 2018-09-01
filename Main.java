@@ -247,6 +247,7 @@ public void Drawstart(){
   Start panel1=new Start();
   panel1.setPreferredSize(new Dimension(510,540));
   panel1.setBackground(Color.white);
+  /*
   panel1.setLayout(null);
 
   JButton button1 = new JButton("簡単（21x21)");
@@ -291,7 +292,7 @@ public void Drawstart(){
 //  button2.addKeyListener(new Keyboard_input_start());
 //  button3.addKeyListener(new Keyboard_input_start());
 //  button4.addKeyListener(new Keyboard_input_start());
-
+*/
   fr.add(panel1);
   fr.pack();
   fr.setTitle("迷路ゲーム");
